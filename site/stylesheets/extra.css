@@ -1,0 +1,172 @@
+/* ===== Sidewalk Analyzer - Custom Styles ===== */
+
+/* Gallery thumbnail grid via Markdown images */
+.gallery-thumb {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
+  margin: 4px;
+}
+
+.gallery-thumb:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 1em 0;
+}
+
+.gallery-grid .gallery-item {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-grid .gallery-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-grid .gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery-grid .gallery-item .caption {
+  padding: 8px 12px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.85em;
+  background: var(--md-code-bg-color);
+}
+
+/* Evaluation Icons */
+.eval-exact { color: #4caf50; font-weight: bold; }
+.eval-partial { color: #ff9800; font-weight: bold; }
+.eval-incorrect { color: #f44336; font-weight: bold; }
+
+/* Sample Page Layout */
+.sample-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 1.5em;
+}
+
+.sample-header .metadata-card {
+  flex: 1;
+  min-width: 200px;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--md-code-bg-color);
+}
+
+.sample-header .metadata-card h4 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+/* Comparison Table Styling */
+.comparison-table th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.comparison-table td:nth-child(4),
+.comparison-table td:nth-child(5) {
+  text-align: center;
+}
+
+/* Dashboard Cards */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 1.5em 0;
+}
+
+.dashboard-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background: var(--md-code-bg-color);
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.dashboard-card .metric-value {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--md-primary-fg-color);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.dashboard-card .metric-label {
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Image comparison side by side */
+.img-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 1em 0;
+}
+
+.img-compare figure {
+  margin: 0;
+  text-align: center;
+}
+
+.img-compare figure img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.img-compare figure figcaption {
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+  margin-top: 4px;
+}
+
+/* Pipeline step cards */
+.pipeline-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 1.5em 0;
+}
+
+.pipeline-step {
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--md-code-bg-color);
+  border-top: 3px solid var(--md-primary-fg-color);
+}
+
+.pipeline-step h4 {
+  margin-top: 0;
+}
+
+/* Responsive images */
+.docs-image {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+/* Tags styling */
+.md-tags {
+  margin-bottom: 1em;
+}

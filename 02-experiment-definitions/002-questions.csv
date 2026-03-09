@@ -1,0 +1,25 @@
+column_name,column_type,segmentation_object,min_value,max_value,question,report_session_name
+image,metadata,,,,,
+sidewalk_width,calculation,"Sidewalk surface, cracks, holes, bumps, obstacles",,,“Qual a largura da cançada?”,01-Medições Quantitativas
+free_lane_width,calculation,"Sidewalk surface, free lane surface, cracks, holes, bumps, obstacles",,,“Qual a largura da faixa livre?”,01-Medições Quantitativas
+longitudinal_slope,calculation,"Sidewalk surface, ramp",,,“Qual a inclinação longitudinal da calçada?”,01-Medições Quantitativas
+transversal_slope,calculation,"Sidewalk surface, ramp",,,“Qual a inclinação transversal da calçada?”,01-Medições Quantitativas
+sidewalk_width_classification,direct_question,"Sidewalk surface",,,“Classifique a largura da calçada como “Acessível” quando apropriada para uma pessoa em cadeira de rodas ou Não Acessível caso contrário. Considere somente a largura da calçada.”,01-Medições Quantitativas
+free_lane_width_classification,direct_question,"Free lane surface",,,"Classifique a largura da faixa livre da calçada como  ""Acessível"" quando apropriada para uma pessoa em cadeira de rodas ou ""Não Acessível"" caso contrário. Considere somente a largura da faixa livre da calçada.”",01-Medições Quantitativas
+longitudinal_slope_classification,direct_question,"Sidewalk surface, ramp",,,"Classifique a inclinação longitudinal da calçada como ""Acessível"" quando apropriada para uma pessoa em cadeira de rodas ou ""Não Acessível"" caso contrário. Considere somente a inclinação longitudinal da calçada.”",01-Medições Quantitativas
+transversal_slope_classification,direct_question,"Sidewalk surface, ramp",,,"Classifique a inclinação transversal da calçada como ""Acessível"" quando apropriada para uma pessoa em cadeira de rodas ou ""Não Acessível"" caso contrário. Considere somente a inclinação transversal da calçada.”",01-Medições Quantitativas
+pavement_quality,direct_question,"Sidewalk surface, fissures, cracks, holes, bumps, obstacles",1,10,"“Classifique a qualidade do revestimento da calçada com uma pontuação entre 1 e 10, sendo 1 para má qualidade e 10 para boa qualidade (considere a existência de fissuras, rachaduras e/ou buracos)”",02-Medições Qualitativas
+surface_material,direct_question,"Sidewalk surface, fissures, cracks, holes, bumps, obstacles",,,“Quais os materiais utilizados na superfície da calçada?”,02-Medições Qualitativas
+cracks,direct_question,"Sidewalk surface, cracks,obstacles",,,“Existe trinca na calçada? (Sim/Não)”,02-Medições Qualitativas
+holes,direct_question,"Sidewalk surface, holes, obstacles",,,“Existe buraco na calçada? (Sim/Não)”,02-Medições Qualitativas
+fissures,direct_question,"Sidewalk surface, fissures, obstacles",,,“Existe fissura na calçada? (Sim/Não)”,02-Medições Qualitativas
+car_access_ramp_exists_and_interrupt_free_lane,direct_question,"Sidewalk surface, free lane surface, car access ramp, wedge",,,“Existe rampa de acesso para carros que interrompe a faixa livre? (Sim ou Não)”,03-Objetos e Obstáculos
+obstacles_in_the_free_lane,direct_question,"Sidewalk surface, free lane surface, obstacles",,,“Liste os obstáculos que obstruem a faixa livre da calçada objetivamente”,03-Objetos e Obstáculos
+obstacles_in_the_sidewalk,direct_question,"Sidewalk surface, wedge, obstacles",,,“Liste os obstáculos que se encontram na calçada”,03-Objetos e Obstáculos
+is_there_a_curb_ramp,direct_question,"Sidewalk surface, ramp",,,“Existe rampa de rebaixamento do meio fio na calçada? (Sim/Não)”,04-Elementos Adicionais
+would_it_be_possible_to_get_through_in_a_wheelchair,direct_question,"Sidewalk surface, free lane surface, cracks, holes, bumps, obstacles",,,“Seria possível uma pessoa usuária de cadeira de rodas passar pela calçada?”,05-Avaliação Geral
+what_is_the_biggest_challenge_for_a_person_on_a_wheelchair,direct_question,"Sidewalk surface, free lane surface, cracks, holes, bumps, obstacles",,,“Qual é o maior desafio para uma pessoa usuária de cadeira de rodas para passar pela calçada?”,05-Avaliação Geral
+reference_object_name,metadata,,,,,
+reference_object_width,metadata,,,,,
+reference_object_height,metadata,,,,,
+reference_object_depth,metadata,,,,,

@@ -1,0 +1,45 @@
+{
+  "scale_factor": 0.78125,
+  "intrinsics": [
+    519.1126098632812,
+    519.1126098632812,
+    300.0,
+    400.0
+  ],
+  "fov_horizontal": 60.04802703857422,
+  "fov_vertical": 75.2317886352539,
+  "depth_range": [
+    1.5518741607666016,
+    147.9853057861328
+  ],
+  "has_normal": true,
+  "has_points": true,
+  "reference_calibration": {
+    "detected": true,
+    "scale_m_per_pixel": 0.0023965237497107408,
+    "length_pixels": 160.23208618164062,
+    "center": [
+      326.02191162109375,
+      127.99427032470703
+    ],
+    "confidence": 0.6524085212856738,
+    "reference_depth_m": 13.687280654907227
+  },
+  "model_name": "Ruicheng/moge-2-vitl-normal",
+  "model_version": "v2",
+  "device": "cuda",
+  "use_fp16": false,
+  "resolution_level": "High",
+  "original_size": [
+    768,
+    1024
+  ],
+  "processed_size": [
+    600,
+    800
+  ],
+  "valid_pixel_ratio": 0.9418583333333334,
+  "fov_horizontal_deg": 60.04802703857422,
+  "fov_vertical_deg": 75.2317886352539,
+  "inference_time_ms": 2586.9672298431396
+}

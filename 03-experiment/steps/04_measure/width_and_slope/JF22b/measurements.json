@@ -1,0 +1,25 @@
+{
+  "free_width_m": "0.31572163",
+  "width_m": "2.5680165",
+  "max_width_m": "3.1394424",
+  "width_confidence": 0.6805971264839172,
+  "longitudinal_slope_pct": 0.43030548840761185,
+  "cross_slope_pct": 0.01541722594993189,
+  "slope_confidence": 0.9884957075119019,
+  "surface_roughness": 100.0,
+  "mean_depth_m": 2.3221676349639893,
+  "scale_valid": true,
+  "scale_warning": null,
+  "free_width_location": [
+    88,
+    788,
+    144,
+    788
+  ],
+  "max_width_location": [
+    10,
+    938,
+    765,
+    938
+  ]
+}

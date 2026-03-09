@@ -1,0 +1,15 @@
+{
+  "free_width_m": 0.0,
+  "width_m": 0.0,
+  "max_width_m": 0.0,
+  "width_confidence": 0.0,
+  "longitudinal_slope_pct": 0.0,
+  "cross_slope_pct": 0.0,
+  "slope_confidence": 0.0,
+  "surface_roughness": 0.0,
+  "mean_depth_m": 0.0,
+  "scale_valid": true,
+  "scale_warning": null,
+  "free_width_location": null,
+  "max_width_location": null
+}
